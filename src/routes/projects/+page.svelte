@@ -1,6 +1,8 @@
 <section>
 
-    <h2 class="projects-header">Projects</h2>
+    <h2>Projects</h2>
+
+    <hr color="#7a431d">
 
     <div class="img-text-container">
         <video 
@@ -33,6 +35,8 @@
         </div>
     </div>
 
+    <hr color="#7a431d">
+
     <div class="img-text-container">
         <img class="image" src="/images/pipelinedDatapath.PNG" alt="This is my five-stage pipelined datapath design.">
         <div class="text">
@@ -47,6 +51,8 @@
             </ul>
         </div>
     </div>
+
+    <hr color="#7a431d">
 
     <div class="img-text-container">
         <video
@@ -71,6 +77,8 @@
         </div>
     </div>
 
+    <hr color="#7a431d">
+
     <div class="img-text-container">
         <video 
             poster="/images/AidanGPT.PNG"
@@ -94,6 +102,8 @@
         </div>
     </div>
 
+    <hr color="#7a431d">
+
     <div class="img-text-container">
         <div class="text">
             <h3>Personal Website (html/css/javascript)</h3>
@@ -110,10 +120,12 @@
         </div>
     </div>
 
+    <hr color="#7a431d">
+
     <div class="img-text-container">
         <video 
             poster="/images/tic-tac-toe.PNG"
-            src="/videos/Tic-Tac-Toe vid.mp4"
+            src="/videos/Tic-Tac-Toe Vid.mp4"
         >
             <track kind="captions" />
         </video>
@@ -138,6 +150,8 @@
         </div>
     </div>
 
+    <hr color="#7a431d">
+
     <div class="img-text-container">
         <div class="text">
             <h3>Vehicle Position Simulation (C++)</h3>
@@ -152,6 +166,8 @@
             </ul>
         </div>
     </div>
+
+    <hr color="#7a431d">
     
     <div class="img-text-container">
         <video 
@@ -174,6 +190,8 @@
         </div>
     </div>
 
+    <hr color="#7a431d">
+
     <div class="img-text-container">
         <video
             poster="/images/alien-invasion.PNG"
@@ -193,6 +211,8 @@
             </ul>
         </div>
     </div>
+
+    <hr color="#7a431d">
     
     <div class="img-text-container">
         <img class="image" src="/images/Uno.PNG" alt="This is my UNO game.">
@@ -209,8 +229,75 @@
         </div>
     </div>
 
+    <hr color="#7a431d">
+
 </section>
 
 <style>
-    @import '../styles.css';
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    section {
+        background-image: repeating-linear-gradient(#292526, black 5%, #292526 25%);
+        padding: 2% 5%;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 30px;
+        margin: 30px 0;
+        color: #de9e48;
+    }
+
+    .img-text-container {
+        display: flex;
+        align-items: center;
+        margin: 30px 0;
+        border-radius: 25px;
+        flex-wrap: wrap;
+    }
+
+    .img-text-container img {
+        flex-basis: 250px;
+        flex-grow: 1;
+        margin: 2%;
+        max-height: 500px;
+        width: 50%;
+        object-fit: cover;
+        border-radius: 0;
+    }
+
+    .img-text-container video {
+        flex-basis: 250px;
+        flex-grow: 1;
+        margin: 2%;
+        max-height: 300px;
+        width: 50%;
+    }
+
+    .img-text-container .text {
+        flex-basis: 250px;
+        flex-grow: 1;
+        margin: 2%;
+    }
+
+    h3 {
+        color: #de9e48;
+        font-size: 20px;
+    }
+
+    ul {
+        margin: 10px 0;
+    }
+
+    li {
+        color: white;
+    }
+
+    a {
+        color: lightskyblue;
+    }
+
 </style>

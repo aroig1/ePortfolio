@@ -1,0 +1,96 @@
+<section>
+    <div class="resume-page-container">
+        <div class="left-container">
+            <h2>Education</h2>
+            <p>
+                <strong>University of Arizona</strong><br>
+                Tucson, AZ <br>
+                Bachelor of Science | Expected Graduation May 2025 <br>
+                Major: Software Engineering <br>
+                Cumulative GPA: 3.94
+            </p>
+
+            <h2>Work Experience</h2>
+            <div>
+                <strong>Software Developer Intern</strong><br>
+                May 2023 - August 2023 <br>
+                <em>Zoot Enterprises</em> <br>
+                Bozeman, MT <br>
+                <ul>
+                    <li>Assisted in development of company projects and bugfixes with the Core Software Integration (CSI) team.</li>
+                    <li>Ensured security of consumer data through the development of file encryption and decryption software.</li>
+                    <li>Enhanced current software to be more easily configurable.</li>
+                </ul>
+            </div>
+
+            <h2>Honors and Awards</h2>
+            <ul>
+                <li>Dean's List (Fall 2021 - Spring 2022)</li>
+                <li>Wildcat Distinction Scholarship Recipient</li>
+                <li>2021-2022 Award for Academic Distinction</li>
+                <li>2022-2023 Award for Academic Distinction</li>
+            </ul>
+
+            <h2>Skills</h2>
+            <p><strong>Programming Languages</strong></p>
+            <ul>
+                <li>C</li>
+                <li>C++</li>
+                <li>Python</li>
+                <li>Java</li>
+                <li>MIPS assembly language</li>
+                <li>Verilog</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+            <p><strong>Tools</strong></p>
+            <ul>
+                <li>Visual Studio Code</li>
+                <li>Linux</li>
+                <li>Conda</li>
+                <li>Jenkins</li>
+                <li>Ansible</li>
+                <li>JMESPath</li>
+                <li>Git</li>
+                <li>Bitbucket</li>
+                <li>GitHub</li>
+                <li>SolidWorks</li>
+                <li>Microsoft Excel</li>
+            </ul>
+            <p><strong>Concepts</strong></p>
+            <ul>
+                <li>Object Oriented Programming (OOP)</li>
+                <li>Unified Modeling Language (UML)</li>
+                <li>Agile Methodology</li>
+                <li>Strategic Planning</li>
+                <li>Leadership</li>
+                <li>Project Management</li>
+            </ul>
+
+            <h2>Volunteering</h2>
+            <ul>
+                <li>Family Food Center Volunteer (Fall 2018 - Spring 2020)</li>
+                <li>Church Community Service Volunteer (Summer 2016 - Summer 2021)</li>
+            </ul>
+
+        </div>
+        
+        <div class="right-container">
+            <div class="experience">
+                <h2>Experience</h2>
+                <p>
+                    I have been eagerly learning each aspect of software engineering in 
+                    anticipation of gaining some true experience within the tech industry. 
+                    I believe that given my strong work ethic and ability to work well 
+                    within teams, I could be a great asset in any company's success.
+                </p>
+            </div>
+            <embed src="documents/2024ResumeAidanRoig.pdf" type="application/pdf" />
+        </div>
+    </div>
+</section>
+
+<style>
+    @import '../styles.css';
+</style>

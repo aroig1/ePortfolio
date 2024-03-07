@@ -1,0 +1,216 @@
+<section>
+
+    <h2 class="projects-header">Projects</h2>
+
+    <div class="img-text-container">
+        <video 
+            poster="/images/tanks.PNG"
+            src="/videos/tanksVideo.mp4"
+        >
+            <track kind="captions" />
+        </video>
+        <div class="text">
+            <h3>Tanks! (Python)</h3>
+            <ul>
+                <li>For this project I recreated the classic Wii Play tanks game using pygame's GUI in python. 
+                    This project really helped me put an object oriented programming style into practice as 
+                    each tank, projectile, landmine, and even block you see in this game was 
+                    represented using an object of a class. I created a structure of inheritance 
+                    from a base 'Tank' class with several subclasses such as 'MovingEnemyTank' and 
+                    even more specific subclasses such as 'RedTank' to account the the different 
+                    abilities that each of my 5 enemy tanks had. I also had to create physics in 
+                    this game focusing especially on the bouncing of projectiles along borders and 
+                    blocks of each level as well as rotating said projectile's image to the correct 
+                    direction each time they were shot or bounced. In addition, I was able to 
+                    incorporate the A* pathfinding method into this program so that CPU tanks could 
+                    move towards the player through the various level maps. Another feature I 
+                    implemented was loading levels through a json file, which made adding new 
+                    levels much quicker and easier. Lastly, I got to have some fun adding background 
+                    music and sound effects that matched those in the original game.
+                </li>
+                <li>GitHub Link: <a href="https://github.com/aroig1/Tanks">Tanks</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="img-text-container">
+        <img class="image" src="/images/pipelinedDatapath.PNG" alt="This is my five-stage pipelined datapath design.">
+        <div class="text">
+            <h3>FPGA based pipelined datapath with searching algorithm (MIPS, Verilog)</h3>
+            <ul>
+                <li>I collaborated with a group to design, implement, and validate a five-stage pipelined datapath for the MIPS 32-bit ISA 
+                    on the Xilinx Artix-7 FPGA. This datapath design included hazarding and forwarding from both the instruction decode and 
+                    execution stages (forwarding is not shown on this diagram). In addition, we implemented an image processing algorithm in MIPS ISA and executed 
+                    on the FPGA based emulation of the pipelined processor on the FPGA.
+                </li>
+                <li>GitHub Link: <a href="https://github.com/aroig1/Pipelined_Datapath">Pipelined_Datapath</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="img-text-container">
+        <video
+            poster="/images/flappybird.PNG"
+            src="/videos/flappybird.mp4"
+        >
+            <track kind="captions" />
+        </video>
+        <div class="text">
+            <h3>Flappy Bird (Python)</h3>
+            <ul>
+                <li>For this project, I created a Flappy Bird game implemented in Python using the Pygame library.
+                     This game allowed me to experiment with creating physics behind my jumping/flying,
+                      as well as creating hitboxes and dealing with collisions between objects. In 
+                      addition, I created a method to randomize the location of the pipes each time 
+                      they were generated. Lastly, I was able to add a scoreboard that keeps track of 
+                      both your highest and current score, as well as a simple medal system that appears 
+                      depending on your score.
+                </li>
+                <li>GitHub Link: <a href="https://github.com/aroig1/FlappyBird">FlappyBird</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="img-text-container">
+        <video 
+            poster="/images/AidanGPT.PNG"
+            src="/videos/AidanGPT.mp4"
+        >
+            <track kind="captions" />
+        </video>
+        <div class="text">
+            <h3>AidanGPT (html/css/javascript)</h3>
+            <ul>
+                <li>For this project, I created a "copy" of the well known AI called ChatGPT. For
+                    the frontend and display I used HTML and CSS to style and create the base for
+                    this chat AI. Then, I used Javascript to call to OpenAI's API for ChatGPT and
+                    to create new text objects that can be displayed as the user and the AI interact.
+                    It was interesting to be able to create my own version of this AI by simply
+                    calling to their API, and I should be able to apply this same concept to other Projects
+                    in order to further improve them.
+                </li>
+                <li>GitHub Link: <a href="https://github.com/aroig1/AidanGPT">AidanGPT</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="img-text-container">
+        <div class="text">
+            <h3>Personal Website (html/css/javascript)</h3>
+            <ul>
+                <li>This website in itself is a personal project of mine. I made it using a combination of html 
+                    and css. I wanted to start working on some more frontend type of programming work and this project
+                    was a great start towards that goal. I initially had lots of difficulty organizing the website the 
+                    way I wanted it, but once I better understood how to use flexbox in css to align, organize, and group different
+                    content I was able to successfully create the website how I wanted. Lastly, I was able to add just a 
+                    small bit of javascript in order to create a clickable dropdown menu for mobile devices.
+                </li>
+                <li>GitHub Link: <a href="https://github.com/aroig1/Personal-Website">Personal-Website</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="img-text-container">
+        <video 
+            poster="/images/tic-tac-toe.PNG"
+            src="/videos/Tic-Tac-Toe vid.mp4"
+        >
+            <track kind="captions" />
+        </video>
+        <div class="text">
+            <h3>Tic Tac Toe (Python)</h3>
+            <ul>
+                <li>This Tic Tac Toe game was a personal project of mine. I wanted to create a game with
+                    a graphical user interface to play it on. I also wanted to experiment with creating
+                    a sort of AI that would make smart decisions based on the previous and currently available
+                    moves. Thus, I created this Tic Tac Toe game using python. In addition to my goals with this
+                    project, I got to practice writing code in a more object oriented way, and I was able to
+                    expose myself to a new python module in tkinter.
+                </li>
+                <li>
+                    After completing my AidanGPT Project, I added an additional difficulty mode in my Tic Tac Toe game
+                    called ChatGPT AI Mode. This mode calls to ChatGPT using an API so that the user is playing against
+                    a true AI. This was a fun way to apply my new experience in openai's API even though it turns out ChatGPT
+                    is not very good at Tic Tac Toe.
+                </li>
+                <li>GitHub Link: <a href="https://github.com/aroig1/Tic-Tac-Toe">Tic-Tac-Toe</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="img-text-container">
+        <div class="text">
+            <h3>Vehicle Position Simulation (C++)</h3>
+            <ul>
+                <li>This program was done as a project for my computer programming in engineering
+                        applications II class. This program takes several inputs, primarily direction
+                        and velocity, in order to simulate the position and state of a moving car. 
+                        This program is a great representation of my ability to use object oriented 
+                        programming and create a program which can vary greatly depending on the input data.
+                </li>
+                <li>GitHub Link: <a href="https://github.com/aroig1/Vehicle-Position-Simulator">Vehicle-Position-Simulator</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="img-text-container">
+        <video 
+            poster="/images/solar-tracker.PNG"
+            src="/videos/solar tracker.mp4"
+        >
+            <track kind="captions" />
+        </video>
+        <div class="text">
+            <h3>Solar Tracker (Java)</h3>
+            <ul>
+                <li>In this project I worked within a group of 4 people in order to construct a device
+                        that rotates a solar panel towards the sun in order for it to be of maximum 
+                        effectiveness. I focused on programming the arduino to control the motor which
+                        rotated the system. I did this by reading the change in voltage caused by the 
+                        photoresistors as they were exposed to more or less light. I then programmed the 
+                        motor to rotate accordingly in the direction which was determined to be of greater sunlight.
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="img-text-container">
+        <video
+            poster="/images/alien-invasion.PNG"
+            src="/videos/Alien Invasion video.mp4"
+        >
+            <track kind="captions" />
+        </video>
+        <div class="text">
+            <h3>Alien Invasion Game (Python)</h3>
+            <ul>
+                <li>This program was done as a project for my introduction to software engineering 
+                    class. It is a game that is very similar to galaga with various moving entities as 
+                    well as a score counting system. This program displays my ability to code using an
+                    object oriented programming style.
+                </li>
+                <li>GitHub Link: <a href="https://github.com/aroig1/Alien-Invasion-Game">Alien-Invasion-Game</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="img-text-container">
+        <img class="image" src="/images/Uno.PNG" alt="This is my UNO game.">
+        <div class="text">
+            <h3>UNO (C)</h3>
+            <ul>
+                <li>This program was done as a project for my computer programming in engineering 
+                    applications class. It is a fully funtional text-based Uno game. It is a great display
+                    of my ability to manage dynamicallly allocated data through the use of linked lists
+                    and an overall understanding of the c programming language.
+                </li>
+                <li>GitHub Link: <a href="https://github.com/aroig1/Uno">Uno</a></li>
+            </ul>
+        </div>
+    </div>
+
+</section>
+
+<style>
+    @import '../styles.css';
+</style>

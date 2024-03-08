@@ -177,7 +177,7 @@
             <track kind="captions" />
         </video>
         <div class="text">
-            <h3>Solar Tracker (Java)</h3>
+            <h3>Solar Tracker (Arduino)</h3>
             <ul>
                 <li>In this project I worked within a group of 4 people in order to construct a device
                         that rotates a solar panel towards the sun in order for it to be of maximum 
